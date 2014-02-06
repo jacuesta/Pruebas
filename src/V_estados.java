@@ -16,6 +16,10 @@ public class V_estados {
 	public boolean execute( SqlMapClient sqlMap, String xIn) throws SQLException {
 		
 		boolean bCorrecto = true;
+		//Correctivo 
+		int i= 0;
+		i++;
+		
 		
 		ValidacionDAO val = new ValidacionDAO();
 		
